@@ -29,7 +29,7 @@ encryptWith                           | ((string))  | 'default' | The id of a cu
 var user = await User.create({name: 'alice'})
 .meta({fetch: true});
 
-return res.json(newUser);
+return res.json(user);
 ```
 
 
